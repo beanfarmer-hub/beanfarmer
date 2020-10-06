@@ -17,36 +17,46 @@ h1 {
   color: white;
 }
 h2 {
-  text-align: ;
-  color: white;
-}
-discord-button {
-opacity: 0.8;
-vertical-align: middle;
-  background-color: #ad90f5; /* Green */
-  border: none;
-  color: white;
-  padding: 75px 75px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  color: white;
 }
 discord-button:hover {
   opacity: 1;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
+img {
+display: flex;
+flex: 33.33%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+img:hover {
+  border-radius: 80%;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 </style>
 <h1>wellcome we are getting setup we will be here soon</h1>
 <h1>Comming soon</h1>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<discord-button>
-<h2>discord</h2>
-</discord-button>
+<div class="row">
 </div>
-
+<div class="row">
+  <div class="column">
+  <h2>discord</h2>
+    <img src = "https://yt3.ggpht.com/a/AATXAJw1tXvJInOnm44MdEF3kS0b8x-W4Twj27SYvJ9gRw=s900-c-k-c0xffffffff-no-rj-mo" style="width:100px;height:100px;" onclick="window.open('https://discord.gg/MgrKaHF','niggers','width=1920,height=1080')">
+  </div>
+</div>
 </body>
 </html>
